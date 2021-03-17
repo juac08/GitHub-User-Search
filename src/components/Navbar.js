@@ -32,7 +32,7 @@ const Navbar = () => {
 const Wrapper = styled.nav`
   padding: 1.5rem;
   margin-bottom: 4rem;
-  background: var(--clr-white);
+  background: var(--clr-grey-1);
   text-align: center;
   display: grid;
   grid-template-columns: auto auto 100px;
@@ -42,6 +42,7 @@ const Wrapper = styled.nav`
   h4 {
     margin-bottom: 0;
     font-weight: 400;
+    color:#c3b7b7;
   }
   img {
     width: 35px !important;
@@ -55,7 +56,7 @@ const Wrapper = styled.nav`
     font-size: 1.2rem;
     text-transform: capitalize;
     letter-spacing: var(--spacing);
-    color: var(--clr-grey-5);
+    color: var(--clr-grey-10);
     cursor: pointer;
   }
 `;

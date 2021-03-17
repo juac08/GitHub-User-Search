@@ -31,6 +31,7 @@ const Wrapper = styled.section`
   }
   h1 {
     margin-bottom: 1.5rem;
+    
   }
 `;
 export default Login;
